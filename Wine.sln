@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contracts", "contracts", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Contracts", "Persistence.Contracts\Persistence.Contracts.csproj", "{4AB1D1BE-B2A9-433D-92A2-FD28F812EEE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{8CE2A70B-57A1-4EB5-8543-BD3F784E56DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Contracts", "Application.Contracts\Application.Contracts.csproj", "{82CEA426-63C9-45C3-84D1-9EA45D759E05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,8 @@ Global
 		{8A2673F4-0385-42AB-B718-F9E52BBC08EE} = {673E4BA0-1C62-4D43-9BE5-E967C5A61B71}
 		{6BB0EA33-D3FD-4FA8-A20E-4B74C3A82DB8} = {1CE5C26A-4813-46B4-8893-0F641D1607DA}
 		{4AB1D1BE-B2A9-433D-92A2-FD28F812EEE4} = {8A2673F4-0385-42AB-B718-F9E52BBC08EE}
+		{8CE2A70B-57A1-4EB5-8543-BD3F784E56DE} = {673E4BA0-1C62-4D43-9BE5-E967C5A61B71}
+		{82CEA426-63C9-45C3-84D1-9EA45D759E05} = {8A2673F4-0385-42AB-B718-F9E52BBC08EE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{538BEA5D-5981-4666-A028-99CDD6A6F8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,5 +52,13 @@ Global
 		{4AB1D1BE-B2A9-433D-92A2-FD28F812EEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AB1D1BE-B2A9-433D-92A2-FD28F812EEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AB1D1BE-B2A9-433D-92A2-FD28F812EEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE2A70B-57A1-4EB5-8543-BD3F784E56DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE2A70B-57A1-4EB5-8543-BD3F784E56DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE2A70B-57A1-4EB5-8543-BD3F784E56DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE2A70B-57A1-4EB5-8543-BD3F784E56DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CEA426-63C9-45C3-84D1-9EA45D759E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CEA426-63C9-45C3-84D1-9EA45D759E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CEA426-63C9-45C3-84D1-9EA45D759E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CEA426-63C9-45C3-84D1-9EA45D759E05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
