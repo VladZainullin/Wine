@@ -6,8 +6,12 @@ public sealed class Color
 {
     private Guid _id = Guid.NewGuid();
     private string _title = default!;
+
+    private Color()
+    {
+    }
     
-    public Color(CreateColorParameters parameters)
+    public Color(CreateColorParameters parameters) : this()
     {
         SetTitle(new SetColorTitleParameters
         {

@@ -6,8 +6,12 @@ public sealed class SugarContent
 {
     private Guid _id = Guid.NewGuid();
     private string _title = default!;
+
+    private SugarContent()
+    {
+    }
     
-    public SugarContent(CreateSugarContentParameters parameters)
+    public SugarContent(CreateSugarContentParameters parameters) : this()
     {
         SetTitle(new SetSugarContentTitleParameters
         {

@@ -13,8 +13,12 @@ public sealed class Wine
 
     private SugarContent _sugarContent = default!;
     private Color _color = default!;
+
+    private Wine()
+    {
+    }
     
-    public Wine(CreateWineParameters parameters)
+    public Wine(CreateWineParameters parameters) : this()
     {
         SetTitle(new SetWineTitleParameters
         {
