@@ -15,6 +15,8 @@ public sealed class Color
         });
     }
 
+    public Guid Id => _id;
+    
     public string Title => _title;
     
     public void SetTitle(SetColorTitleParameters parameters)
