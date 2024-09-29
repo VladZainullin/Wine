@@ -13,5 +13,9 @@ internal sealed class WineConfiguration : IEntityTypeConfiguration<Wine>
         builder.Property(static m => m.Description).HasField("_description");
 
         builder.HasIndex(static m => m.Title).IsUnique();
+
+        builder.HasOne(static w => w.SugarContent).WithMany();
+        
+        builder.HasOne(static w => w.Color).WithMany();
     }
 }

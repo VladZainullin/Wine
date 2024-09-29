@@ -6,7 +6,7 @@ namespace Persistence;
 
 public sealed class AppDbContext(DbContextOptions options) : DbContext(options)
 {
-    public DbSet<Wine> Vodka => Set<Wine>();
+    public DbSet<Wine> Wines => Set<Wine>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
